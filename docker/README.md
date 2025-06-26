@@ -54,8 +54,13 @@ We provide a script to build your image with the right L4T / ZED SDK version.
 Examples:
 
 ```bash
-# Jetson with JP6.0 and ZED SDK v4.2.3
-./jetson_build_dockerfile_from_sdk_and_l4T_version.sh l4t-r36.3.0 zedsdk-4.2.3
+# Jetson with JP6.0 and ZED SDK v4.2.5
+./jetson_build_dockerfile_from_sdk_and_l4T_version.sh l4t-r36.3.0 zedsdk-4.2.5
+```
+
+```bash
+# Jetson with JP6.2 and ZED SDK v5.0.0
+./jetson_build_dockerfile_from_sdk_and_l4T_version.sh l4t-r36.4.0 zedsdk-5.0.0
 ```
 
 ```bash
